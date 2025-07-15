@@ -1,0 +1,12 @@
+/* Hide the site title in the sidebar */
+.site-title {
+  display: none !important;
+}
+
+/* Alternative selectors that might be used by the theme for site title only */
+.sidebar .site-title,
+.site__title {
+  display: none !important;
+}
+
+/* Keep the author name visible - don't hide .author__name */ 
