@@ -1,10 +1,9 @@
 ---
-layout: page
-title: Coursework
+title: "Technical Coursework"
 permalink: /coursework/
+layout: single
+author_profile: true
 ---
-
-# Technical Coursework
 
 **GPA**: 3.66 / 4.00
 
