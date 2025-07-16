@@ -1,0 +1,41 @@
+name: Build and Deploy Resume PDF
+
+on:
+  push:
+    paths:
+      - '_latex/resume.tex'
+      - '.github/workflows/latex-to-pdf.yml'
+      - 'assets/pdfs/**'
+      - '_latex/**'
+      - 'README.md'
+      - '_config.yml'
+      - 'index.html'
+      - '_data/navigation.yml'
+      - '_pages/resume.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up LaTeX
+        uses: dante-ev/latex-action@v2
+        with:
+          root_file: _latex/resume.tex
+          work_in_root_file_dir: true
+
+      - name: Copy PDF to assets/pdfs
+        run: |
+          mkdir -p assets/pdfs
+          cp _latex/resume.pdf assets/pdfs/resume.pdf
+
+      - name: Commit and push PDF
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdfs/resume.pdf
+          git commit -m "Auto-update resume.pdf from LaTeX source" || echo "No changes to commit"
+          git push 
