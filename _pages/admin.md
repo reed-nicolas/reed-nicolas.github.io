@@ -27,6 +27,7 @@ title: "Admin Dashboard"
         <button onclick="refreshStats()" style="background: #007cba; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Refresh Stats</button>
         <button onclick="resetStats()" style="background: #dc3545; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Reset Stats</button>
         <button onclick="logout()" style="background: #6c757d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Logout</button>
+        <button onclick="clearSession()" style="background: #ffc107; color: black; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Clear Session</button>
     </div>
     
     <div style="margin-top: 20px;">
@@ -81,6 +82,11 @@ function logout() {
     document.getElementById('error-message').style.display = 'none';
 }
 
+function clearSession() {
+    sessionStorage.clear();
+    alert('Session cleared! Please refresh the page to test password protection.');
+}
+
 function displayStats() {
     if (typeof window.trackingSystem !== 'undefined') {
         const stats = window.trackingSystem.getStats();
@@ -109,9 +115,8 @@ function resetStats() {
 
 // Check if already logged in when page loads
 document.addEventListener('DOMContentLoaded', function() {
-    if (sessionStorage.getItem('adminLoggedIn') === 'true') {
-        showStats();
-    }
+    // Clear any existing login state to force password entry
+    sessionStorage.removeItem('adminLoggedIn');
     
     // Allow Enter key to submit password
     document.getElementById('password-input').addEventListener('keypress', function(e) {
