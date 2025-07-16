@@ -11,7 +11,6 @@ I'm Nicolas Reed, a student at UC Berkeley studying Electrical Engineering & Com
 - **Homepage**: Introduction and overview
 - **Resume**: Direct link to my professional resume (PDF)
 - **Coursework**: Details about my academic experience and relevant courses
-- **Projects**: Showcase of my technical projects and research
 
 ## 🛠️ Technical Details
 
