@@ -1,60 +1,34 @@
 ---
+layout: page
+title: Coursework
 permalink: /coursework/
-title: "Coursework"
 ---
 
-## Coursework
+# Technical Coursework
 
-### Computer Science & Engineering
-
-#### [Course Code] - [Course Name]
-*[Semester/Year]*
-- **Instructor:** [Professor Name]
-- **Description:** [Brief course description]
-- **Key Topics:** [Main topics covered]
-- **Projects:** [Notable projects or assignments]
-- **Grade:** [Your grade if you want to include it]
-
-#### [Course Code] - [Course Name]
-*[Semester/Year]*
-- **Instructor:** [Professor Name]
-- **Description:** [Brief course description]
-- **Key Topics:** [Main topics covered]
-- **Projects:** [Notable projects or assignments]
-- **Grade:** [Your grade if you want to include it]
-
-### Mathematics & Statistics
-
-#### [Course Code] - [Course Name]
-*[Semester/Year]*
-- **Instructor:** [Professor Name]
-- **Description:** [Brief course description]
-- **Key Topics:** [Main topics covered]
-- **Projects:** [Notable projects or assignments]
-- **Grade:** [Your grade if you want to include it]
-
-### Other Relevant Courses
-
-#### [Course Code] - [Course Name]
-*[Semester/Year]*
-- **Instructor:** [Professor Name]
-- **Description:** [Brief course description]
-- **Key Topics:** [Main topics covered]
-- **Projects:** [Notable projects or assignments]
-- **Grade:** [Your grade if you want to include it]
+**GPA**: 3.66 / 4.00
 
 ---
 
-## Current Courses
+### Spring 2025
+- **CS 61C**: [Great Ideas in Computer Architecture (Machine Structures)](https://cs61c.org) [A+]
+- **CS 70**: [Discrete Math and Probability Theory](https://eecs70.org) [A–]
+- **Physics 7B**: Physics for Scientists and Engineers II [B+]
 
-*[List any courses you're currently taking]*
+### Fall 2024
+- **CS 61B**: [Data Structures](https://fa24.datastructur.es/) [A+]
+- **EECS 16B**: Designing Information Systems and Devices II [A]
+- **Chem 1A + 1AL**: General Chemistry + Laboratory [A]
 
----
+### Summer 2024
+- **Data C8**: [Foundations of Data Science](https://www.data8.org/su24/) [A+]
+- **ME 110**: Introduction to Product Development [A]
 
-## Planned Courses
+### Spring 2024
+- **CS 61A**: [Structure and Interpretation of Computer Programs](https://cs61a.org) [A]
+- **Engineering 7**: Introduction to Computer Programming for Scientists and Engineers [A+]
 
-*[List any courses you plan to take in upcoming semesters]*
-
----
-
-*This is a placeholder - please customize this content to reflect your actual coursework, including course codes, names, descriptions, and any notable projects.* 
+### Fall 2023
+- **EECS 16A**: Designing Information Devices and Systems I [B]
+- **Math 53**: Multivariable Calculus [C]
+- **Physics 7A**: Physics for Scientists and Engineers I [B–]
