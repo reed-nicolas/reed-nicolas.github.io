@@ -47,8 +47,15 @@
         resumeLinks.forEach(function(link) {
             link.addEventListener('click', function() {
                 trackResumeAccess();
+                console.log('Resume link clicked:', link.href);
             });
         });
+        
+        // Also track clicks on the redirect page
+        if (window.location.pathname === '/resume') {
+            trackResumeAccess();
+            console.log('Resume redirect page accessed');
+        }
     });
     
     // Make functions globally available for admin page
