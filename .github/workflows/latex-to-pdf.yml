@@ -30,7 +30,7 @@ jobs:
       - name: Copy PDF to assets/pdfs
         run: |
           mkdir -p assets/pdfs
-          cp _latex/resume.pdf assets/pdfs/resume.pdf
+          cp resume.pdf assets/pdfs/resume.pdf
 
       - name: Commit and push PDF
         run: |
