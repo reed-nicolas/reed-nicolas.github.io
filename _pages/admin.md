@@ -38,8 +38,8 @@ title: "Admin Dashboard"
 
 <script src="/assets/js/tracking.js"></script>
 <script>
-// Password protection - using SHA-256 hash for security
-const ADMIN_PASSWORD_HASH = '8f7b3e2a1c9d4f6e8a2b5c7d9e1f3a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8'; // This is the hash of 'LeStephan230Jurry'
+
+const ADMIN_PASSWORD_HASH = '941d03531aadb6f98db834afd0288cd90d7dfdd3b545fbc55c005d073f1b1255';
 
 async function checkPassword() {
     const password = document.getElementById('password-input').value;
