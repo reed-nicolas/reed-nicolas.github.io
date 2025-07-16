@@ -1,5 +1,5 @@
 main:
   - title: "Resume"
-    url: /resume/
+    url: https://github.com/reed-nicolas/reed-nicolas.github.io/tree/master/assets/pdfs/resume.pdf
   - title: "Coursework"
     url: /coursework/
