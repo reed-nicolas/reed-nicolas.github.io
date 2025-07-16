@@ -16,9 +16,11 @@
 title: 
 email: reednicolas@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Portfolio of Nicolas Reed, an EECS student at UC Berkeley focused on 
+  computer architecture, systems, and hardware research. Includes 
+  projects, coursework, and experience in industry and academia.
+
 github_username: reed-nicolas
 minimal_mistakes_skin: default
 search: true
