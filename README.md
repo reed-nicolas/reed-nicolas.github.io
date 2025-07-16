@@ -1,27 +1,49 @@
-# Minimal Mistakes remote theme starter
+# Nicolas Reed - Personal Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Welcome to my personal website! This is where I showcase my academic work, projects, and professional experience.
 
-Contains basic configuration to get you a site with:
+## 🎓 About Me
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+I'm Nicolas Reed, a student at UC Berkeley studying Electrical Engineering & Computer Sciences (EECS). I'm passionate about computer architecture, hardware design, and software development.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 📁 What's Here
+
+- **Homepage**: Introduction and overview
+- **Resume**: Direct link to my professional resume (PDF)
+- **Coursework**: Details about my academic experience and relevant courses
+- **Projects**: Showcase of my technical projects and research
+
+## 🛠️ Technical Details
+
+This website is built using:
+- **Jekyll** - Static site generator
+- **Minimal Mistakes** - Jekyll theme
+- **GitHub Pages** - Hosting platform
+- **LaTeX** - Resume generation
+
+## 📊 Analytics
+
+The site includes a private analytics dashboard to track:
+- Website visits
+- Resume downloads/views
+- Access patterns
+
+## 🔗 Quick Links
+
+- **Website**: [reed-nicolas.github.io](https://reed-nicolas.github.io)
+- **Resume**: [reed-nicolas.github.io/resume](https://reed-nicolas.github.io/resume)
+- **LinkedIn**: [linkedin.com/in/reed-nicolas](https://linkedin.com/in/reed-nicolas)
+- **GitHub**: [github.com/reed-nicolas](https://github.com/reed-nicolas)
+- **Email**: reednicolas@berkeley.edu
+
+## 🚀 Development
+
+To run this site locally:
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+*Last updated: January 2025*

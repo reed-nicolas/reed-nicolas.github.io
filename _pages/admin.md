@@ -28,6 +28,7 @@ title: "Admin Dashboard"
         <button onclick="resetStats()" style="background: #dc3545; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Reset Stats</button>
         <button onclick="logout()" style="background: #6c757d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Logout</button>
         <button onclick="clearSession()" style="background: #ffc107; color: black; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Clear Session</button>
+
     </div>
     
     <div style="margin-top: 20px;">
@@ -86,6 +87,8 @@ function clearSession() {
     sessionStorage.clear();
     alert('Session cleared! Please refresh the page to test password protection.');
 }
+
+
 
 function displayStats() {
     if (typeof window.trackingSystem !== 'undefined') {
