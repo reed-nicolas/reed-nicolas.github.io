@@ -1,0 +1,197 @@
+%-------------------------
+% Resume in Latex
+% Author : Nicolas Reed (adapted from Jake Gutierrez template)
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[usenames,dvipsnames]{xcolor} % gives access to RoyalBlue
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% Uncomment to change the font
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[default]{sourcesanspro}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-9pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine readable / ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} 
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Nicolas Reed} \\ \vspace{1pt}
+    \small (669)~242{-}9012 $\vert$ \href{mailto:reednicolas@berkeley.edu}{\underline{reednicolas@berkeley.edu}} $\vert$ 
+    \href{https://linkedin.com/in/reednicolas}{\underline{linkedin.com/in/reednicolas}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{GPA: 3.66/4.00}
+      {B.S.\ Electrical Engineering \& Computer Sciences (EECS)}{Expected May 2027}
+
+      %–– small vertical gap ––
+      \vspace{5pt} % adjust to taste (1–2 pt works well)
+
+      {\small\textbf{Relevant coursework:} Digital Design and Integrated Circuits with FPGA Lab (in progress), Computer Architecture and Machine Structures, Operating Systems (in progress), Signals and Circuits~I~\&~II, Data Structures, Structure and Interpretation of Computer Programs, Foundations of Data Science}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Sandisk}{Milpitas, CA}
+      {Software Development Intern}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Analyzed and reconciled CMDB and inventory data for 40,000+ virtual machines using Pandas, enabling automated cleansing and transformation workflows that identified gaps, standardized records, and generated actionable migration plans for a cloud provider transition.}
+        \resumeItem{Streamlined license management and contract summarization for 10,000 enterprise applications by developing an AI assistant using LlamaIndex and NLP, delivering actionable insights that improved compliance and reduced spend.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://slice.eecs.berkeley.edu/}{\underline{UC Berkeley SLICE Lab}}}{Berkeley, CA}
+      {Undergraduate Research Assistant}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Researching under \href{https://sagark.org/}{\underline{Professor Sagar Karandikar}} to integrate AI tooling that improves the usability of Chipyard and FireSim frameworks for RISC{-}V hardware development.}
+        \resumeItem{Extend RISC-V hardware components for architectural research by analyzing and simulating designs using Verilog and Chisel within the Chipyard toolchain.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {UC Berkeley Electrical Engineering \& Computer Sciences (EECS)}{Berkeley, CA}
+      {Head Teaching Assistant}{June 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Support 1,200+ students with C, RISC-V, Python, and Logisim through office hours and an online forum.}
+        \resumeItem{Host weekly lab sections for 50+ students, guiding programming exercises and problem-solving practice.}
+        \resumeItem{Develop weekly homework and lab assignments, and maintain course infrastructure using GitHub and Docker.}
+        \resumeItem{Earned a 4.67/5.00 average teaching rating and ranked third in student acknowledgements on course feedback.}
+        \resumeItem{Answer 1{,}500+ student questions per semester to lead online forum engagement.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.micross.com/home/global/north-america/silicon-turnkey-solutions-milpitas-ca}{\underline{Micross Components - Silicon Turnkey Solutions}}}{Milpitas, CA}
+      {Engineering Intern}{July 2023 -- Aug. 2023}
+      \resumeItemListStart
+        \resumeItem{Conducted mechanical and PCB testing on 1,000+ devices, translating results into actionable insights via Excel.}
+        \resumeItem{Organized 500+ items and launched a project to boost Cleanroom productivity via preventative maintenance.}
+        \resumeItem{Resolved a test issue by documenting compromised semiconductors and identifying the damage stage.}
+        \resumeItem{Improved operational efficiency by creating setup sheets and updating data packages to ensure accuracy.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Multistage Pipelined RISC{-}V CPU}}{2025}
+      \resumeItemListStart
+        \resumeItem{Designed a three-stage pipelined RISC-V CPU supporting 40+ I/R/B/S/J-type instructions for arithmetic, logic, memory, and control flow operations.}
+        \resumeItem{Built the ALU, register file, and immediate generator to enable modular instruction execution.}
+        \resumeItem{Implemented hazard detection and control logic to resolve data and control hazards and minimize stalls.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Linguistic Data Analysis and Visualization Tools}}{2024}
+      \resumeItemListStart
+        \resumeItem{Developed a browser-based tool that visualizes word usage over time by processing large CSV datasets.}
+        \resumeItem{Created a semantic network modeling word relationships using graph traversal for efficient lookup and analysis.}
+        \resumeItem{Practiced test driven development to ensure correctness and performance across modular Java packages.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Scheme Interpreter}}{2024}
+      \resumeItemListStart
+        \resumeItem{Implemented an interpreter for a subset of the Scheme language in Python, supporting core expressions and syntax}
+        \resumeItem{Applied semantic and lexical analysis techniques that machines use to evaluate and execute code.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{\textbf{Languages}: C, Python, Verilog, RISC{-}V, Chisel, SQL, MATLAB, Lisp (Scheme) \\
+          \textbf{Tools \& Frameworks}: Git, GDB, Valgrind, Pandas, NumPy, Logisim, Digilent WaveForms, LTSpice, Matplotlib}} 
+\end{itemize}
+
+\end{document}

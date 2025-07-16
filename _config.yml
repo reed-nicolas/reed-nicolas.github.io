@@ -34,18 +34,20 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _latex
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - _latex
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -64,24 +66,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:reednicolas@berkeley.edu"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/reed-nicolas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/reed-nicolas"
-
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:reednicolas@berkeley.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/reed-nicolas"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/reed-nicolas"
 
 defaults:
   # _posts
