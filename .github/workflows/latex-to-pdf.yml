@@ -33,9 +33,12 @@ jobs:
           cp resume.pdf assets/pdfs/resume.pdf
 
       - name: Commit and push PDF
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git add assets/pdfs/resume.pdf
           git commit -m "Auto-update resume.pdf from LaTeX source" || echo "No changes to commit"
-          git push 
+          git push
