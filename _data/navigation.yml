@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Resume"
     url: https://github.com/reed-nicolas/reed-nicolas.github.io/blob/master/assets/pdfs/resume.pdf
   - title: "Coursework"

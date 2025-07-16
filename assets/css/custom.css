@@ -10,3 +10,9 @@
 }
 
 /* Keep the author name visible - don't hide .author__name */ 
+
+/* Hide the FEED section in the footer */
+.page__footer-follow,
+.feed-label {
+  display: none !important;
+} 
