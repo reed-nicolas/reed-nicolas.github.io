@@ -23,7 +23,7 @@ description: >-
 
 github_username: reed-nicolas
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown

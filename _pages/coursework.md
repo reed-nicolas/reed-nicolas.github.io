@@ -8,6 +8,9 @@ author_profile: true
 **GPA**: 3.66 / 4.00
 
 ---
+### Fall 2025 
+- **EECS 151 + 151LB**: Introduction to Digital Design and Integrated Circuits + Field-Programmable Gate Array Laboratory 
+- **CS 162**: [Operating Systems and System Programming](https://cs162.org)
 
 ### Spring 2025
 - **CS 61C**: [Great Ideas in Computer Architecture (Machine Structures)](https://cs61c.org) [A+]
