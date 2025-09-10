@@ -9,7 +9,7 @@ author_profile: true
 
 ---
 ### Fall 2025 
-- **EECS 151 + 151LB**: Introduction to Digital Design and Integrated Circuits + Field-Programmable Gate Array Laboratory 
+- **EECS 151 + 151LA**: Introduction to Digital Design and Integrated Circuits + ASIC Laboratory 
 - **CS 162**: [Operating Systems and System Programming](https://cs162.org)
 
 ### Spring 2025
