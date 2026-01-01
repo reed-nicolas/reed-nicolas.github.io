@@ -15,7 +15,7 @@ author_profile: true
 
 ### Fall 2025 
 - **EECS 151 + 151LA**: Introduction to Digital Design and Integrated Circuits [A] + ASIC Laboratory [A+]
-- **CS 162**: [Operating Systems and System Programming](https://cs162.org)
+- **CS 162**: [Operating Systems and System Programming](https://cs162.org) [A-]
 
 ### Spring 2025
 - **CS 61C**: [Great Ideas in Computer Architecture (Machine Structures)](https://cs61c.org) [A+]
