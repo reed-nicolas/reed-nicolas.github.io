@@ -74,24 +74,24 @@
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} 
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -103,12 +103,12 @@
 
 %----------HEADING----------
 \begin{center}
-    {\Huge \scshape Nicolas Reed} \\ \vspace{1pt}
-    \small (669)~242{-}9012 $\vert$ 
-    \href{mailto:reednicolas@berkeley.edu}{\underline{reednicolas@berkeley.edu}} $\vert$ 
-    \href{https://linkedin.com/in/reednicolas}{\underline{linkedin.com/in/reednicolas}}
-    $\vert$ 
-    \href{https://reed-nicolas.github.io/}{\underline{reed-nicolas.github.io}}
+  {\Huge \scshape Nicolas Reed} \\ \vspace{1pt}
+  \small (669)~242{-}9012 $\vert$
+  \href{mailto:reednicolas@berkeley.edu}{\underline{reednicolas@berkeley.edu}} $\vert$
+  \href{https://linkedin.com/in/reednicolas}{\underline{linkedin.com/in/reednicolas}}
+  $\vert$
+  \href{https://reed-nicolas.github.io/}{\underline{reed-nicolas.github.io}}
 \end{center}
 
 %-----------EDUCATION-----------
@@ -121,7 +121,7 @@
       %–– small vertical gap ––
       \vspace{5pt} % adjust to taste (1–2 pt works well)
 
-      {\small\textbf{Relevant coursework:} Digital Design and Integrated Circuits (in progress), ASIC Design (in progress), Computer Architecture and Machine Structures, Operating Systems, Signals and Circuits, Data Structures, Structure and Interpretation of Computer Programs, Foundations of Data Science}
+      {\small\textbf{Relevant coursework:} Tapeout, Digital Design and Integrated Circuits (with ASIC Lab), Computer Architecture, Operating Systems, Signals and Circuits, Data Structures, Internet of Things, Foundations of Data Science}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -130,37 +130,40 @@
 
     \resumeSubheading
       {Apple}{Cupertino, CA}
-      {[Incoming] SoC Design Verification Engineering Intern}{May 2026 -- August 2026}
-      
+      {[Incoming] Hardware Engineering Intern}{May 2026 -- August 2026}
+      \resumeItemListStart
+        \resumeItem{Silicon Enginering Group: SoC Design Verification}
+      \resumeItemListEnd
+
     \resumeSubheading
       {Sandisk}{Milpitas, CA}
       {Software Development Intern}{May 2025 -- August 2025}
       \resumeItemListStart
-        \resumeItem{Reconciled CMDB and inventory data for 40,000+ virtual machines using Pandas, identifying gaps, standardizing records, and generating actionable migration plans for a cloud provider transition.}
-        \resumeItem{Streamlined license management and contract summarization for 10,000 enterprise applications by developing an AI assistant using LlamaIndex and NLP, delivering actionable insights that improved compliance and reduced spend.}
+        \resumeItem{Reconciled CMDB and inventory data for 40,000+ virtual machines with Pandas, standardizing records, surfacing gaps, and producing migration plans for a cloud provider transition.}
+        \resumeItem{Built an AI assistant with LlamaIndex and NLP to streamline license and contract workflows across 10,000 enterprise applications, improving compliance and reducing spend.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {\href{https://slice.eecs.berkeley.edu/}{\underline{UC Berkeley SLICE Lab}}}{Berkeley, CA}
+      {UC Berkeley \href{https://slice.eecs.berkeley.edu}{\underline{SLICE Lab}}}{Berkeley, CA}
       {Undergraduate Research Assistant - advised by \href{https://sagark.org/}{\underline{Professor Sagar Karandikar}}}{May 2025 -- Present}
       \resumeItemListStart
-        \resumeItem{Integrate AI tooling to improve usability of Chipyard and FireSim frameworks for RISC‑V hardware development.}
-        \resumeItem{Extend RISC-V hardware components for architectural research by analyzing and simulating designs using Verilog and Chisel within the Chipyard toolchain.}
+        \resumeItem{Created a telemetry pipeline for Chipyard and FireSim on AWS S3, boosting debugging and reproducibility.}
+        \resumeItem{Prepared a structured dataset of runs and metrics to enable LLM-driven regression triage and automated insights.}
       \resumeItemListEnd
 
     \resumeSubheading
       {UC Berkeley Electrical Engineering \& Computer Sciences (EECS)}{Berkeley, CA}
       {Head Teaching Assistant}{June 2024 -- Present}
       \resumeItemListStart
-        \resumeItem{Support 1,200+ students with C, RISC-V, Python, and Logisim through office hours and an online forum.}
+        \resumeItem{Support 1,200+ students with C, RISC-V, and Python through office hours and an online forum.}
+        \resumeItem{Ranked 1st among staff in helpfulness and teaching effectiveness.}
         \resumeItem{Host weekly lab sections for 50+ students, guiding programming exercises and problem-solving practice.}
         \resumeItem{Develop weekly homework and lab assignments, and maintain course infrastructure using GitHub and Docker.}
-        \resumeItem{Earned a 4.67/5.00 average teaching rating and ranked third in student acknowledgements on course feedback.}
         \resumeItem{Answer 1{,}500+ student questions per semester to lead online forum engagement.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {\href{https://www.micross.com/home/global/north-america/silicon-turnkey-solutions-milpitas-ca}{\underline{Micross Components - Silicon Turnkey Solutions}}}{Milpitas, CA}
+      {Micross Components - \href{https://www.micross.com/home/global/north-america/silicon-turnkey-solutions-milpitas-ca}{\underline{Silicon Turnkey Solutions}}}{Milpitas, CA}
       {Engineering Intern}{July 2023 -- August 2023}
       \resumeItemListStart
         \resumeItem{Conducted mechanical and PCB testing on 1,000+ devices, translating results into actionable insights via Excel.}
@@ -173,19 +176,25 @@
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeProjectHeading
-      {\textbf{Multistage Pipelined RISC{-}V CPU} - \textit{Logisim}}{2025}
+      {\textbf{TSMC 16nm IoT SoC Tapeout} - \textit{Chisel, Chipyard, Hammer}}{2026}
       \resumeItemListStart
-        \resumeItem{Designed a three-stage pipelined RISC-V CPU supporting 40+ I/R/B/S/J-type instructions for arithmetic, logic, memory, and control flow operations.}
-        \resumeItem{Built the ALU, register file, and immediate generator to enable modular instruction execution.}
-        \resumeItem{Implemented hazard detection and control logic to resolve data and control hazards and minimize stalls.}
+        \resumeItem{Contributed to a large-scale SoC tapeout with Apple mentorship, owning a block and driving signoff closure.}
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{Linguistic Data Analysis and Visualization Tools} - \textit{Java}}{2024}
+      {\textbf{5-Stage Pipelined RISC{-}V CPU with I/D Caches} - \textit{Verilog}}{2025}
       \resumeItemListStart
-        \resumeItem{Developed a browser-based tool that visualizes word usage over time by processing large CSV datasets.}
-        \resumeItem{Created a semantic network modeling word relationships using graph traversal for efficient lookup and analysis.}
-        \resumeItem{Practiced test driven development to ensure correctness and performance across modular packages.}
+        \resumeItem{Apple New Silicon Initiative Design Contest Winner: delivered best performance and area.}
+        \resumeItem{Boosted throughput and frequency by refining hazard control and forwarding, reducing stall cycles.}
+        \resumeItem{Achieved single-cycle read hits and two-cycle write hits and implemented optimized write-back logic.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pintos Operating System} - \textit{C}}{2025}
+      \resumeItemListStart
+        \resumeItem{Extended core OS support for process control and system calls, handling invalid user memory safely.}
+        \resumeItem{Added multithreading and synchronization primitives, enforcing priority scheduling to prevent inversion.}
+        \resumeItem{Built UNIX-style file system features including caching, file growth, and subdirectories to improve I/O.}
       \resumeItemListEnd
 
     \resumeProjectHeading
@@ -199,8 +208,8 @@
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
-  \small{\item{\textbf{Languages}: Verilog, C, Python, RISC{-}V, Scala (Chisel), Java, x86. SQL, MATLAB, Lisp (Scheme) \\
-          \textbf{Tools \& Frameworks}: Git, GDB, Valgrind, Pandas, NumPy, Docker, Logisim, LTSpice}} 
+  \small{\item{\textbf{Languages}: Verilog, SystemVerilog, C, Python, RISC{-}V, Chisel, Scala, Java, x86. SQL, MATLAB \\
+          \textbf{Tools \& Frameworks}: Git, Cadence Innovus, GDB, Valgrind, Pandas, NumPy, Docker, LTSpice}}
 \end{itemize}
 
 \end{document}
