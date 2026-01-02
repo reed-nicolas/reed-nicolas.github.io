@@ -26,7 +26,7 @@ author_profile: true
 ### Fall 2024
 - **CS 61B**: [Data Structures](https://fa24.datastructur.es/) [A+]
 - **EECS 16B**: Designing Information Systems and Devices II [A]
-- **Chem 1A + 1AL**: General Chemistry[A] + Laboratory [A]
+- **Chem 1A + 1AL**: General Chemistry [A] + Laboratory [A]
 
 ### Summer 2024
 - **Data C8**: [Foundations of Data Science](https://www.data8.org/su24/) [A+]
