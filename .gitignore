@@ -2,3 +2,19 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+.vscode/
+
+# LaTeX build artifacts
+_latex/*.aux
+_latex/*.log
+_latex/*.out
+_latex/*.fls
+_latex/*.fdb_latexmk
+_latex/*.synctex.gz
+_latex/resume.pdf
+assets/pdfs/*.aux
+assets/pdfs/*.log
+assets/pdfs/*.out
+assets/pdfs/*.fls
+assets/pdfs/*.fdb_latexmk
+assets/pdfs/*.synctex.gz
