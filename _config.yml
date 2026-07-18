@@ -63,7 +63,7 @@ plugins:
 
 author:
   name   : "Nicolas Reed"
-  avatar : "/assets/images/profile_photo.jpg"
+  avatar : "/assets/images/profile_photo.jpeg"
   bio    : ""
   links:
     - label: "Email"
