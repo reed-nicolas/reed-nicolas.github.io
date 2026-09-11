@@ -4,6 +4,11 @@
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
+/* Keep the profile column at full brightness, including when not hovered. */
+.sidebar {
+  opacity: 1;
+}
+
 /* Responsive, circular, extra large avatar */
 .sidebar .author__avatar {
   display: flex;

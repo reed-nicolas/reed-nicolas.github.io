@@ -9,11 +9,12 @@ author_profile: true
 
 ---
 ### Fall 2026
-- **EE 194/290C**: Bringup (Physical AI)
+- **EE 194/290C**: [Bringup (Physical AI)](https://ucb-ee290c.github.io/semesters/fa26/)
 - **CS 164**: Programming Languages and Compilers
+- **EE 105**: [Microelectronic Devices and Circuits](https://adityamuppala.github.io/teaching105/)
 
 ### Spring 2026
-- **EE 194/290C**: [Tapeout (Physical AI)](https://ee194.org) [A]
+- **EE 194/290C**: Tapeout (Physical AI) [A]
 - **CS 152**: Computer Architecture and Engineering [B]
 - **CS 168**: [Introduction to the Internet (Architecture and Protocols)](https://sp26.cs168.io/) [B]
 
